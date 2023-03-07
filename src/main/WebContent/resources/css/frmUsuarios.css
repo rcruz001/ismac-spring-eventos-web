@@ -1,0 +1,38 @@
+@charset "ISO-8859-1";
+#frmUsuarios.css
+
+h1{
+    color: #990000;
+    font-family: monospace;
+    font-size: 40px;
+    font-style: normal;
+    text-align: center;
+}
+
+#form {
+    border:2px solid #990000;
+    width:400px;
+    margin:auto;
+}
+
+#form input{
+	
+	font-weight:bold;
+    font-size:15px;
+}
+
+#form label{
+	
+	font-weight:bold;
+    font-size:15px;
+}
+
+#form input[type=text] {
+    border:2px solid #CCCCCC;
+}
+#form button {
+    padding:3px;
+    color:#FFFFFF;
+    background-color:#990000;
+    border:1px solid #000000;
+}
